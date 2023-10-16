@@ -1,6 +1,6 @@
 body {
-    background-color: #87CEEB;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #87ceeb;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 {
@@ -20,4 +20,33 @@ a {
 
 h2 {
     color: #000080;
+    padding-left: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #029e8a;
+}
+
+.return-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #008080;
+}
+
+.return-link:hover {
+    color: #4169e1;
+    text-decoration: underline;
+}
+
+.desc {
+    text-align: center;
+}
+
+.contents {
+    padding-left: 210px;
 }
